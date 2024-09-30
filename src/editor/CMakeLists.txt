@@ -1,0 +1,3 @@
+file(GLOB_RECURSE EDITOR_SOURCES *.cpp *.h *.ui)
+
+target_sources(${PROJECT_NAME} PRIVATE ${EDITOR_SOURCES})
